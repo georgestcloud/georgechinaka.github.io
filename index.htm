@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GEORGE MENU</title>
+<style>
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 15px
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+}
+h2 { text-align: center;}
+h3 { text-align: center;}
+h4 { text-align: center;}
+p { margin-left: 10px}
+
+.content, .content1, .content2 {
+  width: calc(33.33% - 15px);
+  padding: 0px;
+  border: 1px solid black;
+  background-color: grey;
+  margin: 10px;
+  float: left;
+}
+
+.content {
+margin: 5px;
+  margin-left: 10; 
+}
+
+.content1 {
+  margin: 5px;
+    float: center;
+}
+
+.content2 {
+  float: right;
+ margin: 5px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .content, .content1, .content2 {
+    float: none;
+    width: 90%;
+  }
+</style>
+</head>
+
+<body>
+
+  <h1>George Menu</h1>
+  <div class="content">
+    <h2>Cow</h2>
+    <p>Cows are fat animals</p>
+  </div>
+
+  <div class="content1">
+    <h3>Pigs</h3>
+    <p>Pigs are very dirty animals</p>
+  </div>
+
+  <div class="content2">
+    <h4>Chicken</h4>
+    <p>Chicken are very delicious when baked or deep-fried</p>
+  </div>
+
+</body>
+</html>
